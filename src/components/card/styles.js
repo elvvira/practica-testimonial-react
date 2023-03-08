@@ -8,6 +8,9 @@ const StyledCard = styled.div`
 	margin-right: auto;
 	margin-left: auto;
 	color: ${({ color }) => color};
+	@media screen and (min-width: 768px) {
+		grid-column: ${({ gridColumn }) => gridColumn};
+	}
 `;
 
 const StyledHeader = styled.div`

@@ -8,9 +8,9 @@ import {
 	StyleSubtitle
 } from './styles';
 
-const Card = ({ icon, name, title, subtitle, color, subColor, bgColor }) => {
+const Card = ({ icon, name, title, subtitle, color, gridColumn, bgColor }) => {
 	return (
-		<StyledCard bgColor={bgColor} color={color}>
+		<StyledCard bgColor={bgColor} color={color} gridColumn={gridColumn}>
 			<StyledHeader>
 				<StyledImage src={icon} alt='' />
 
