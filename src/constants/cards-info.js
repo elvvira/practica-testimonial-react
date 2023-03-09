@@ -11,7 +11,8 @@ const cardsInfo = [
 		color: 'white',
 		subColor: '#cfcfcf',
 		bgColor: '#733FC8',
-		gridColumn: '0/3'
+		gridColumn: '1/3',
+		gridRow: '1/2'
 	},
 	{
 		id: 2,
@@ -24,7 +25,8 @@ const cardsInfo = [
 		color: 'white',
 		subColor: '#cfcfcf',
 		bgColor: '#48556A',
-		gridColumn: '3/4'
+		gridColumn: '3/4',
+		gridRow: '1/2'
 	},
 	{
 		id: 3,
@@ -37,7 +39,8 @@ const cardsInfo = [
 		color: '#48556A',
 		subColor: '#48556A',
 		bgColor: 'white',
-		gridColumn: '4/5'
+		gridColumn: '1/2',
+		gridRow: '2/3'
 	},
 	{
 		id: 4,
@@ -51,7 +54,8 @@ const cardsInfo = [
 		color: 'white',
 		subColor: '#cfcfcf',
 		bgColor: '#48556A',
-		gridColumn: '0/1'
+		gridColumn: '2/4',
+		gridRow: '2/3'
 	},
 	{
 		id: 5,
@@ -64,7 +68,8 @@ const cardsInfo = [
 		color: '#48556A',
 		subColor: '#48556A',
 		bgColor: 'white',
-		gridColumn: '1/4'
+		gridColumn: '4/5',
+		gridRow: '1/3'
 	}
 ];
 export { cardsInfo };

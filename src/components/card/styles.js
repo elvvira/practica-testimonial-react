@@ -9,7 +9,10 @@ const StyledCard = styled.div`
 	margin-left: auto;
 	color: ${({ color }) => color};
 	@media screen and (min-width: 768px) {
+		width: 100%;
+
 		grid-column: ${({ gridColumn }) => gridColumn};
+		grid-row: ${({ gridRow }) => gridRow};
 	}
 `;
 

@@ -8,7 +8,10 @@ const StylesContainer = styled.div`
 	@media screen and (min-width: 768px) {
 		display: grid;
 		grid-template-columns: repeat(5, 1fr);
-		grid-template-rows: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 350px);
+		gap: 1rem;
+		margin-right: auto;
+		margin-left: auto;
 	}
 `;
 export { StylesContainer };
